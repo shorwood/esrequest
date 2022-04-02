@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@hsjm/eslint-config/basic",
+    "@hsjm/eslint-config/typescript"
+  ]
+}

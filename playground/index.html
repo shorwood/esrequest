@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <main>
+      <h1>ESRequest: </h1>
+      <p id="content" style="white-space: pre"></p>
+    </main>
+
+    <!-- ESModule -->
+    <script async module type="module">
+      import { requestModule } from '../dist/index.mjs'
+      const toJson = await requestModule('https://raw.githubusercontent.com/windicss/windicss/main/src/config/colors.ts')
+
+      console.log(toJson)
+      console.log(toJson({ a: 1 }))
+
+      // eslint-disable-next-line no-undef
+      // document.querySelector('#content').textContent = `_.snakeCase:${_.snakeCase('fooBar')}`
+
+      // eslint-disable-next-line no-undef
+    </script>
+  </body>
+</html>

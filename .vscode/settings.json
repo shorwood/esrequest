@@ -1,0 +1,14 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "json",
+    "markdown"
+  ],
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "liveServer.settings.port": 5501
+}
